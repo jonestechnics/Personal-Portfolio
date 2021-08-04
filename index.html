@@ -1,0 +1,148 @@
+<!--doctype html-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>My Portfoilo </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!--using FontAwesome---------------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--style----->
+    <style>
+        body {
+            font-family: poppins;
+        }
+    </style>
+
+
+    <section>
+        <!--navigation------------------------->
+        <nav>
+            <!--logo-->
+            <a href="#" class="logo"> </a>
+            <!--menu-->
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Me</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+            <!--bars--------------->
+            <div class="toggle"></div>
+
+        </nav>
+    </section>
+
+    <!--text----------------------->
+    <div class="text-container">
+        <p>Hello,</p>
+        <p>I'm McKinley Jones</p>
+        <p>Freelancing Web Devolper</p>
+        <button class="hire-btn">Hire me</button>
+
+    </div>
+    <!--model---------------------->
+    <img alt="model" class="model" src="../smile me.jpg">
+
+    <div class="about-container">
+        <!--img-->
+        <img src="../well dressed me.jpg">
+        <!--about-me-text-->
+        <div class="about-text">
+            <p>About Me</p>
+            <p>Devolper & Designer</p>
+            <p>Hello,My name is McKinley J I am a Web Devolper.If you have any Project for your bussniess conatact me.I
+                am a JR develover and Know HTMl,CSS, and Javascript</p>
+            <p>I am a Web Devolper </p>
+            <button>Hire Me</button>
+        </div>
+    </div>
+    <!--services-container---------------------------->
+    <div class="services ">
+        <!--text-->
+        <div class="services-text ">
+            <p>Services</p>
+            <br>
+            <p> Please contact, If you would like me to create a Web page for your company. I guaranteed satisfaction on
+                all my website. </p>
+        </div>
+        <div class="box-container">
+            <!--1------------->
+            <div class="box-1">
+                <span>1</span>
+                <p class="heading">Run-buddy</p>
+                <p class="details"> Click the link below to veiw my Project</p>
+                <a link href="https://jonestechnics.github.io/Run-buddy/">Project link</a>
+
+            </div>
+            <!--2------------->
+            <div class="box-2">
+                <span>2</span>
+                <p class="heading">Air polution</p>
+                <p class="details"> Click the link below to veiw my Project</p>
+                <a link href="https://zunaty.github.io/air-quality/">Project link</a>
+
+            </div>
+            <!--3------------->
+            <div class="box-3">
+                <span>3</span>
+                <p class="heading">Robot-gladiators</p>
+                <p class="details"> Click the link below to veiw my Project</p>
+                <a link href="https://jonestechnics.github.io/robot-gladiators/">Project link</a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--if you have any project in your mind contact me-->
+    <div class="contact-me">
+        <p>If You Have Any Project In Your Mind ?</p>
+        <button>Contact me</button>
+    </div>
+
+    <!--footer--------------->
+    <footer>
+        <!--heading-->
+        <p>Going-To Internet</p>
+        <!--paragraph-->
+        <p>I makeas soon as possibale.You really like my work,if you don&#8217;t i change this until you like I give you
+            seticfaction result</p>
+        <!--social-->
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <!--copyright-->
+        <p class="copyright">Copyright by JonesTechnics</p>
+    </footer>
+    <!--social-attach-bar-->
+    <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <!--JQUery-------------------->
+    <script type="text/javascript" src="js/JQuery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.toggle').click(function () {
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+    </script>
+
+</body>
+
+</html>
